@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  http-server:
+    image: gcc:4.9
+    build: .
+    volumes:
+      - .:/http-server
+    ports:
+      - "8080:8080"
+    stdin_open: true
+    tty: true
+    command: "./build/HttpServer"

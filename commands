@@ -1,0 +1,9 @@
+docker-compose build
+docker-compose up
+docker-compose down
+
+# Attach to the server console (to send messages as the server)
+docker attach tcp_chatapp-http-server-1
+
+# Run a new client (repeat this command in new terminals for multiple clients)
+docker exec -it tcp_chatapp-http-server-1 ./build/ChatClient
