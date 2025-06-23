@@ -61,5 +61,5 @@ Use a C++11-compatible compiler (e.g., MSVC or MinGW) to build `server.cpp`/`htt
 ## License
 This project is for educational purposes. 
 
-![Chat App Screenshot](Screenshots\scrnshot_1.png)
-![Chat App Screenshot](Screenshots\scrnshot_6.png)
+![Chat App Screenshot](Screenshots/scrnshot_1.png)
+![Chat App Screenshot](Screenshots/scrnshot_6.png)
